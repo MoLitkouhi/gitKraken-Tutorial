@@ -11,7 +11,7 @@
 <body>
 
     <div id="app">
-        <p> {{title}} -
+        <p> {{headList}} -
             <a v-bind:href="link" target="_blank">Google</a>
         </p>
         <hr>
@@ -30,7 +30,7 @@
             el: "#app",
             data: {
 
-                title: "Great-Game",
+                headList: "Great-Game",
                 link: "http://google.com",
                 finishedLink: '<a href="http://google.com">Google!</a>',
                 photoLink: '<a href="http://unsplash.com">Unsplash!</a>',
